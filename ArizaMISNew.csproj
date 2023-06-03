@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-ArizaMISNew-A28C50B8-4786-499A-A290-605617D52A48</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20230209060956_addpetition3.cs" />
+    <Compile Remove="Migrations\20230209060956_addpetition3.Designer.cs" />
+    <Compile Remove="Migrations\20230514080440_stttt.cs" />
+    <Compile Remove="Migrations\20230514080440_stttt.Designer.cs" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Resources\Controllers\" />
+    <Folder Include="wwwroot\Images\Pictures\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="wwwroot\tbl\buttons.colVis.min.js" />
+    <None Include="wwwroot\tbl\buttons.flash.min.js" />
+    <None Include="wwwroot\tbl\buttons.html5.min.js" />
+    <None Include="wwwroot\tbl\buttons.print.min.js" />
+    <None Include="wwwroot\tbl\dataTables.buttons.min.js" />
+    <None Include="wwwroot\tbl\jquery.dataTables.min.js" />
+    <None Include="wwwroot\tbl\jszip.min.js" />
+    <None Include="wwwroot\tbl\vfs_fonts.js" />
+  </ItemGroup>
+
+</Project>
